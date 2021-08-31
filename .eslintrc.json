@@ -19,13 +19,12 @@
   "plugins": [
     "import",
     "jsx-a11y",
-    "react",
-    "react-hooks",
     "prettier",
     "hooks-sort",
     "cypress"
   ],
   "extends": [
+		"next",
     "airbnb",
     "prettier", 
     "plugin:react-hooks/recommended", 
