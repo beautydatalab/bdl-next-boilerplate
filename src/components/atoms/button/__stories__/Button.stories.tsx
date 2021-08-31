@@ -2,6 +2,12 @@ import { Story, Meta } from "@storybook/react";
 
 import Button, { Props } from "../Button";
 
+const DefaultTemplate: Story<Props> = (args) => (
+  <Button {...args}>Button</Button>
+);
+
+export const Default = DefaultTemplate.bind({});
+
 export default {
   title: "atoms/button/Button",
   component: Button,
@@ -9,9 +15,3 @@ export default {
     children: "Button",
   },
 } as Meta;
-
-const DefaultTemplate: Story<Props> = (args) => (
-  <Button {...args}>Button</Button>
-);
-
-export const Default = DefaultTemplate.bind({});
