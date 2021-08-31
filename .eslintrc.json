@@ -27,7 +27,6 @@
 		"next",
     "airbnb",
     "prettier", 
-    "plugin:react-hooks/recommended", 
     "plugin:cypress/recommended"
   ],
   "rules": {
